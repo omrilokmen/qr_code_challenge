@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap);
-:root {
+:root { /* Setup CSS variables for later use*/
     --font-family: 'Outfit', sans-serif;
     --background-color: #d5e1ef;
     --primary-color: hsl(218, 44%, 22%);
@@ -17,39 +17,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100vh; /* Makes the body at least the height of the viewport */
     background-color: var(--background-color);
 }
 
 .title {
     color: var(--primary-color);
-    font-weight: var(--primary-font-weight);
-    font-size: 1.375rem;
-    letter-spacing: 0px;
-    line-height: 120%;
+    font-weight: var(--primary-font-weight); /* 700 => Bold */
+    font-size: 1.375rem; /* 22px => To convert px to rem divide the pxValue by 16, where 16px is the default root size*/
+    letter-spacing: 0px; /* 0px => No letter spacing */
+    line-height: 120%; /* 120% => 1.2 times the font-size */
 }
 
 .information {
-    font-weight: var(--secondary-font-weight);
+    font-weight: var(--secondary-font-weight); /* 400 => Normal */
     color: var(--secondary-color);
-    font-size: 0.9375rem;
+    font-size: 0.9375rem; /* 15px */
     letter-spacing: 0.2px;
-    line-height: 140%;
+    line-height: 140%; /* 140% => 1.4 times the font-size */
 }
 
 .qr-code {
-    overflow: hidden;
-    padding: 10px;
-    box-sizing: border-box;
+    overflow: hidden; /* Prevents the QR code from overflowing the container */
+    padding: 10px; /* Makes space between the <div> and its content */
+    box-sizing: border-box; /* Makes the padding part of the width */
     background-color: var(--white-color);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius); /*% Makes the corners of the <div> round */
     text-align: center;
-    max-width: 20rem;
+    max-width: 23.43rem; /* 375px */
 }
 
 .qr-image {
-    border-radius: var(--border-radius);
-    width: 100%;
-    display: block;
+    border-radius: var(--border-radius); /* Makes the corners of the image round */
+    width: 100%; /* Makes the image take up the full width of the container */
+    display: block; /* Makes the image a block element */
 }
 
