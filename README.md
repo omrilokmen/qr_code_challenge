@@ -51,6 +51,10 @@ below are the technical details:
     border-radius: 10px; /* This can manipulate an img element*/
 }
 ```
+```Rules
+- Don't use width and height for anything other than tiny icons
+- Don't use manual values to manipulate an element's location
+```
 
 ### Continued development
 
