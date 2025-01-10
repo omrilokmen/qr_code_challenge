@@ -54,8 +54,6 @@ below are the technical details:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 - I want to continue focusing on responsive design and making elements respond to device size, I am going to study the Copilot part of the code and learn from it.
 
 ### Useful resources
