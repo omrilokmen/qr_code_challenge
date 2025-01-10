@@ -1,36 +1,47 @@
+:root {
+    --font-family: 'Outfit', sans-serif;
+    --background-color: #d5e1ef;
+    --primary-color: hsl(218, 44%, 22%);
+    --secondary-color: hsl(216, 15%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+    --border-radius: 10px;
+    --primary-font-weight: 700;
+    --secondary-font-weight: 400;
+}
+
 body {
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #d5e1ef;
+    background-color: var(--background-color);
 }
+
 p.title {
-    font-weight: 700;
-    font-family: 'Outfit', sans-serif;
-    color: hsl(218, 44%, 22%);
+    margin-top: 25px;
+    font-weight: var(--primary-font-weight);
+    color: var(--primary-color);
 }
 
 p.information {
-    font-weight: 400;
-    font-family: 'Outfit', sans-serif;
-    color: hsl(216, 15%, 48%);
+    font-weight: var(--secondary-font-weight);
+    color: var(--secondary-color);
 }
 
 .qr-code {
-   background-color: hsl(0, 0%, 100%);
-   border-radius: 10px;
-   text-align: center;
-   width: 270px;
-   height: 400px;
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+    width: 300px;
+    height: 450px;
 }
 
 .qr-image {
-    border-radius: 10px;
-    width: 250px;
-    height: 250px;
+    border-radius: var(--border-radius);
+    width: 270px;
+    height: 270px;
     margin-top: 10px;
 }
