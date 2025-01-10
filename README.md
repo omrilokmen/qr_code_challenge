@@ -13,11 +13,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+
+- This is my first beginner HTML+CSS practical project, found thanks to the Frontend Mentor platform.
 
 ### Screenshot
 
@@ -25,77 +24,45 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/omrilokmen/qr_code_challenge)
+- Live Site URL: [Live webpage](https://omrilokmen.github.io/qr_code_challenge/)
 
 ## My process
 First I had a look at the destination design in order to know what I am going to build, then I started with the simplest things first and went up in difficulty as I worked through them.
-Technical details:
+below are the technical details:
 - The document had the text already I knew I needed to give each of them a class as they both are separate paragraphs, then I added the image using the <img> tag and gave it a class too, to help with accessibility in CSS.
 - At this point I figured out that the only content in this document are these 3 elements and they are in the middle, they also all have a single background color, do I added them all into a single <div> and also gave that a class in order to manipulate its' background color, responsiveness, and position in the page (which is the center)
 - I then dug into the CSS part and used the style-guide.md to stylize the text and everything else according to the given design.
-
+- With the help of VS Code and github copilot I was able to generate the CSS code that puts the <div> in the middle of the page while accounting for device size.
+- Lastly I had to keep readjusting the <div> and <img> sizes to fit the required design
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Github copilot
+- Google fonts API
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="qr-code">Group image and text to be able to manipulate them as a block</div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.qr-image {
+    border-radius: 10px; /* This can manipulate an img element*/
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- I want to continue focusing on responsive design and making elements respond to device size, I am going to study the Copilot part of the code and learn from it.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Google fonts](https://fonts.google.com/) - This helped me with fonts. I really liked the variety of fonts that google provides.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@omrilokmen](https://www.frontendmentor.io/profile/omrilokmen)
+- Linkedin - [@lokmen-omri](https://www.linkedin.com/in/lokmen-omri/)
